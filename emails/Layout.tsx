@@ -47,7 +47,7 @@ export default function Layout({
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>石云升</strong>
                 </Link>
                 <br />
                 开发者、产品经理、联合创始人
