@@ -122,7 +122,7 @@ export function Headline() {
         /> */}
         {/* <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="shiys1121@foxmail.com"
+          href="sys1@yunyoute.com"
           aria-label="我的邮箱"
           platform="mail"
         /> */}

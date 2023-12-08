@@ -1,7 +1,7 @@
 export const emailConfig = {
-  from: 'shiys1121@foxmail.com',
+  from: 'sys1@yunyoute.com',
   baseUrl:
     process.env.VERCEL_ENV === 'production'
-      ? `https://cali.so`
+      ? `https://yunyoute.cn`
       : 'http://localhost:3000',
 }
