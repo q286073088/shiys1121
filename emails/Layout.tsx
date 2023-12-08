@@ -52,7 +52,7 @@ export default function Layout({
                 <br />
                 开发者、产品经理、联合创始人
               </Text>
-              <Text className="text-center">
+              {/* <Text className="text-center">
                 <Link
                   href="https://cali.so/twitter"
                   className="text-xs text-zinc-600 underline"
@@ -80,7 +80,7 @@ export default function Layout({
                 >
                   哔哩哔哩
                 </Link>
-              </Text>
+              </Text> */}
             </Section>
           </Container>
         </Body>
