@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import { SparkleIcon, UserSecurityIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
-import { SocialLink } from '~/components/links/SocialLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { SocialLink } from '~/components/links/SocialLink'
 
 function Developer() {
   return (
@@ -83,7 +83,7 @@ export function Headline() {
           我叫石云升！
         </Balancer>
       </motion.p>
-      <motion.div
+      {/* <motion.div
         className="mt-6 flex gap-6"
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ export function Headline() {
           duration: 0.35,
           delay: 0.25,
         }}
-      >
+      > */}
         {/* <SocialLink
           href="https://cali.so/twitter"
           aria-label="我的推特"
@@ -120,13 +120,13 @@ export function Headline() {
           aria-label="我的 Telegram"
           platform="telegram"
         /> */}
-        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
+        {/* <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="shiys1121@foxmail.com"
           aria-label="我的邮箱"
           platform="mail"
-        />
-      </motion.div>
+        /> */}
+      {/* </motion.div> */}
     </div>
   )
 }
