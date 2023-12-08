@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      产品经理
     </span>
   )
 }
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>团队管理</span>
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>联合创始人</span>
     </span>
   )
 }
@@ -80,10 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.cn">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我叫石云升！
         </Balancer>
       </motion.p>
       <motion.div
@@ -98,7 +95,7 @@ export function Headline() {
           delay: 0.25,
         }}
       >
-        <SocialLink
+        {/* <SocialLink
           href="https://cali.so/twitter"
           aria-label="我的推特"
           platform="twitter"
@@ -122,10 +119,10 @@ export function Headline() {
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="shiys1121@foxmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />

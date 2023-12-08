@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Cali Castle</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、产品经理、联合创始人
               </Text>
               <Text className="text-center">
                 <Link
