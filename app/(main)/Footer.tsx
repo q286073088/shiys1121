@@ -106,7 +106,8 @@ export async function Footer() {
   )
 
   return (
-    <footer className="mt-32">
+    // <footer className="mt-32">
+    <footer>
       <Container.Outer>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <Container.Inner>
@@ -119,15 +120,15 @@ export async function Footer() {
                 }
               />
             </div>
-            {/* <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} 石云升. 网站已开源：
-                <PeekabooLink href="https://github.com/CaliCastle/cali.so">
+                &copy; {new Date().getFullYear()} 备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17022187号</a>
+                {/* <PeekabooLink href="https://github.com/CaliCastle/cali.so">
                   GitHub
-                </PeekabooLink>
+                </PeekabooLink> */}
               </p>
               <Links />
-            </div> */}
+            </div>
           </Container.Inner>
           <Container.Inner className="mt-6">
             <div className="flex flex-col items-center justify-start gap-2 sm:flex-row">
