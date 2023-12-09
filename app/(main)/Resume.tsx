@@ -26,7 +26,7 @@ const resume: Resume[] = [
     },
   },
   {
-    company: '乾古科技',
+    company: '深圳乾谷技术有限公司',
     title: '产品经理',
     logo: vvsLogo,
     start: '2022',
