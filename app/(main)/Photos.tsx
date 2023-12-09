@@ -4,44 +4,45 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
-// import image5 from '~/assets/highlights/highlight-cali.jpeg'
-// import image1 from '~/assets/highlights/highlight-cat.jpeg'
-// import image3 from '~/assets/highlights/highlight-controller.jpg'
-// import image6 from '~/assets/highlights/highlight-push.png'
-// import image2 from '~/assets/highlights/highlight-workshop.jpg'
-// import image4 from '~/assets/highlights/highlight-zolplay.jpg'
-import image5 from '~/assets/highlights/dedao.jpg'
-import image1 from '~/assets/highlights/hundun.jpg'
-import image3 from '~/assets/highlights/csdn.jpg'
-import image6 from '~/assets/highlights/dushuren.jpg'
-import image2 from '~/assets/highlights/infoQ2021.jpg'
-import image4 from '~/assets/highlights/infoQ2022.jpg'
+import image5 from '~/assets/highlights/highlight-cali.jpeg'
+import image1 from '~/assets/highlights/highlight-cat.jpeg'
+import image3 from '~/assets/highlights/highlight-controller.jpg'
+import image6 from '~/assets/highlights/highlight-push.png'
+import image2 from '~/assets/highlights/highlight-workshop.jpg'
+import image4 from '~/assets/highlights/highlight-zolplay.jpg'
+// import image5 from '~/assets/highlights/dedao.jpg'
+// import image1 from '~/assets/highlights/hundun.jpg'
+// import image3 from '~/assets/highlights/csdn.jpg'
+// import image6 from '~/assets/highlights/dushuren.jpg'
+// import image2 from '~/assets/highlights/infoQ2021.jpg'
+// import image4 from '~/assets/highlights/infoQ2022.jpg'
 import image7 from '~/assets/highlights/wanfen.jpg'
-import image8 from '~/assets/highlights/zhengshu.jpg'
-import image9 from '~/assets/highlights/huiyi.jpg'
+// import image8 from '~/assets/highlights/zhengshu.jpg'
+// import image9 from '~/assets/highlights/huiyi.jpg'
 
-// const images = [image1, image2, image3, image4, image5, image6]
-// const alts = [
-//   '我的猫躺在我的工作台桌子上的键盘旁边',
-//   '我在西雅图城市大学举办的技术演讲',
-//   'Xbox 团队给我专属定制的控制器',
-//   '佐玩的办公室大厅，背景墙挂着一个黑色的佐玩氛围布',
-//   '我举着酒杯看着手机',
-//   '我在用 Ableton Push 制作电子乐',
-// ]
-
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
+const images = [image1, image2, image3, image4, image5, image6, image7]
 const alts = [
-  '得到学习之旅',
-  '混沌大学学习之旅',
-  'CSDN超级个体',
-  '读书使我受益终身',
-  'infoQ2021社区荣誉共建奖',
-  'infoQ2022社区荣誉共建奖',
+  '我的猫躺在我的工作台桌子上的键盘旁边',
+  '我在西雅图城市大学举办的技术演讲',
+  'Xbox 团队给我专属定制的控制器',
+  '佐玩的办公室大厅，背景墙挂着一个黑色的佐玩氛围布',
+  '我举着酒杯看着手机',
+  '我在用 Ableton Push 制作电子乐',
   '得到万粉大V',
-  '团队管理和项目管理多篇文章获得了证书',
-  '全球架构师会议',
 ]
+
+// const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
+// const alts = [
+//   '得到学习之旅',
+//   '混沌大学学习之旅',
+//   'CSDN超级个体',
+//   '读书使我受益终身',
+//   'infoQ2021社区荣誉共建奖',
+//   'infoQ2022社区荣誉共建奖',
+//   '得到万粉大V',
+//   '团队管理和项目管理多篇文章获得了证书',
+//   '全球架构师会议',
+// ]
 
 export function Photos() {
   const [width, setWidth] = React.useState(0)
