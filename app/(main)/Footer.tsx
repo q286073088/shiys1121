@@ -106,7 +106,8 @@ export async function Footer() {
   )
 
   return (
-    <footer className="mt-32">
+    // <footer className="mt-32">
+    <footer>
       <Container.Outer>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <Container.Inner>

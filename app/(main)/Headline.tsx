@@ -10,7 +10,7 @@ import { SparkleIcon, UserSecurityIcon } from '~/assets'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>程序员
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我叫石云升！
+        我叫石云升，程序员出身，11-15年在国领电讯公司 一家做网络电话的互联网公司，从一个小组员做到技术总监，然后被朋友邀请出来创业，创业近六年，主要是做电商和区块链交易所项目，手下带着一个30人的技术团队，在这期间既做技术也做产品和管理，2021年底创业结束。一直从事产品经理岗，目前正在看机会。
         </Balancer>
       </motion.p>
       {/* <motion.div
