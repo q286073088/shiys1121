@@ -42,9 +42,9 @@ const config = {
     ],
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
 
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'warn',
-    'unused-imports/no-unused-imports': 'error',
+    'simple-import-sort/imports': 'off',
+    'simple-import-sort/exports': 'off',
+    'unused-imports/no-unused-imports': 'off',
   },
 }
 
