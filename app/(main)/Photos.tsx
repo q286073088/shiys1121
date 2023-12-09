@@ -12,8 +12,9 @@ import image2 from '~/assets/highlights/infoQ2021.jpg'
 import image4 from '~/assets/highlights/infoQ2022.jpg'
 import image7 from '~/assets/highlights/wanfen.jpg'
 import image8 from '~/assets/highlights/zhengshu.jpg'
+import image9 from '~/assets/highlights/huiyi.jpg'
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8]
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
 const alts = [
   '得到学习之旅',
   '混沌大学学习之旅',
@@ -23,6 +24,7 @@ const alts = [
   'infoQ2022社区荣誉共建奖',
   '得到万粉大V',
   '团队管理和项目管理多篇文章获得了证书',
+  '全球架构师会议',
 ]
 
 export function Photos() {
