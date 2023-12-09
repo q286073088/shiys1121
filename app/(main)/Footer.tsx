@@ -122,7 +122,7 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} 备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17022187号</a>
+                &copy; {new Date().getFullYear()} <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17022187号</a>
                 {/* <PeekabooLink href="https://github.com/CaliCastle/cali.so">
                   GitHub
                 </PeekabooLink> */}

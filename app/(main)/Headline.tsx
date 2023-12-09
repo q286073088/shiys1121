@@ -10,7 +10,7 @@ import { SparkleIcon, UserSecurityIcon } from '~/assets'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>程序员
+      <span className="font-mono">&lt;</span>产品经理
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      产品经理
+      程序员
     </span>
   )
 }
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>团队管理</span>
+      <span>产品负责人</span>
     </span>
   )
 }
@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-        我叫石云升，程序员出身，11-15年在国领电讯公司 一家做网络电话的互联网公司，从一个小组员做到技术总监，然后被朋友邀请出来创业，创业近六年，主要是做电商和区块链交易所项目，手下带着一个30人的技术团队，在这期间既做技术也做产品和管理，2021年底创业结束，之后一直在打磨自己的产品手艺。
+        我叫石云升，程序员出身，4年时间从一个小组员做到公司的技术总监，然后被朋友邀请出来创业，创业近六年，手下带着一个30人的技术团队，主要是做电商和区块链交易所项目，在这期间既做技术也做产品和管理，2021年底创业结束，之后一直在打磨自己的产品手艺。
         </Balancer>
       </motion.p>
       {/* <motion.div
