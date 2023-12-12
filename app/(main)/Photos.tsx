@@ -12,14 +12,14 @@ import image6 from '~/assets/highlights/dushuren.jpg'
 import image7 from '~/assets/highlights/wanfen.jpg'
 import image8 from '~/assets/highlights/zhengshu.jpg'
 
-const images = [image1, image2, image3, image5, image6, image7, image8]
+const images = [image1, image6, image7, image2, image3, image5, image8]
 const alts = [
   '得到学习之旅',
+  '终身学习',
+  '得到万粉大V',
   '混沌大学学习之旅',
   'CSDN超级个体',
   'infoQ2022社区荣誉共建奖',
-  '终身学习',
-  '得到万粉大V',
   '团队管理和项目管理多篇文章获得了证书',
 ]
 
