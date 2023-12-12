@@ -7,24 +7,20 @@ import React from 'react'
 import image1 from '~/assets/highlights/dedao.jpg'
 import image2 from '~/assets/highlights/hundun.jpg'
 import image3 from '~/assets/highlights/csdn.jpg'
-import image4 from '~/assets/highlights/infoQ2021.jpg'
 import image5 from '~/assets/highlights/infoQ2022.jpg'
 import image6 from '~/assets/highlights/dushuren.jpg'
 import image7 from '~/assets/highlights/wanfen.jpg'
 import image8 from '~/assets/highlights/zhengshu.jpg'
-import image9 from '~/assets/highlights/huiyi.jpg'
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
+const images = [image1, image2, image3, image5, image6, image7, image8]
 const alts = [
   '得到学习之旅',
   '混沌大学学习之旅',
   'CSDN超级个体',
-  'infoQ2021社区荣誉共建奖',
-  '我举着酒杯看着手机',
   'infoQ2022社区荣誉共建奖',
+  '终身学习',
   '得到万粉大V',
   '团队管理和项目管理多篇文章获得了证书',
-  '全球架构师峰会',
 ]
 
 export function Photos() {
