@@ -83,7 +83,7 @@ export default function AskMeAnythingPage() {
           一旦你完成支付，可以加我微信shiys1121，来跟我预约一个合适你的时间。
           {/* {' '}
           <RichLink
-            href="https://yunyoute.cn/calicastle/ask-me-anything"
+            href="https://sys.yunyoute.cn/calicastle/ask-me-anything"
             target="_blank"
           >
             这个链接

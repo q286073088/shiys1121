@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: '石云升',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://yunyoute.cn',
+    url: 'https://sys.yunyoute.cn',
   },
   twitter: {
     site: '@thecalicastle',
