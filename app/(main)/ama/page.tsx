@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Balancer from 'react-wrap-balancer'
 
-import { RichLink } from '~/components/links/RichLink'
+// import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
 import AlipayQR from './alipay-qr.jpg'
@@ -80,14 +80,15 @@ export default function AskMeAnythingPage() {
           </span>
         </p>
         <p>
-          一旦你完成支付，通过{' '}
+          一旦你完成支付，可以加我微信shiys1121，来跟我预约一个合适你的时间。
+          {/* {' '}
           <RichLink
-            href="https://yunyoute.cn/本人castle/ask-me-anything"
+            href="https://yunyoute.cn/calicastle/ask-me-anything"
             target="_blank"
           >
             这个链接
-          </RichLink>
-          来跟我预约一个合适你的时间。
+          </RichLink> */}
+          
         </p>
 
         {/* <h2>感谢信</h2>
