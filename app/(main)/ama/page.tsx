@@ -44,7 +44,7 @@ export default function AskMeAnythingPage() {
         <ul>
           <li>
             <b>职业规划</b>
-            ：工作难找，或是寻求职场建议？想提升自己的专业水平？或是想转型？
+            ：工作难找，需要寻求职场建议？想提升自己的专业水平？或是想转型？
           </li>
           <li>
             <b>产品规划</b>：不知道如何管理需求？不能很快的把需求转化成开发可实现的原型？想提升自己的设计水平？
@@ -54,7 +54,7 @@ export default function AskMeAnythingPage() {
             ：我有5年多的团队管理经验，引领着30人的产研团队。
           </li>
           <li>
-            <b>创业经验</b>：我有5年多的创业经验，多个从0到1的项目。
+            <b>创业经验</b>：我有5年多的创业经验，多个从0到1的项目经验。建议你用最小的成本的方式来验证你的产品创意。
           </li>
           <li>
             <b>其他</b>
@@ -66,10 +66,10 @@ export default function AskMeAnythingPage() {
         <p>我的一对一咨询的价格为：</p>
         <ul>
           <li>
-            <strong>¥100 - 30分钟</strong>
+            <strong>¥99 - 30分钟</strong>
           </li>
           <li>
-            <strong>¥200 - 60分钟</strong>
+            <strong>¥198 - 60分钟</strong>
           </li>
         </ul>
 
