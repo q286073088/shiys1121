@@ -12,7 +12,7 @@ import image6 from '~/assets/highlights/dushuren.jpg'
 // import image7 from '~/assets/highlights/wanfen.jpg'
 import image8 from '~/assets/highlights/zhengshu.jpg'
 
-const images = [image1, image6, image2, image3, image5, image8]
+const images = [image1, image6, image2, image5, image8]
 const alts = [
   '得到学习之旅',
   '终身学习',
