@@ -36,7 +36,7 @@ const resume: Resume[] = [
     company: '深圳云网基业电信有限公司',
     title: '联合创始人',
     logo: eightNinthsLogo,
-    start: '2015',
+    start: '2016',
     end: '2021',
   },
   {
@@ -44,7 +44,7 @@ const resume: Resume[] = [
     title: '研发总监',
     logo: abletiveLogo,
     start: '2011',
-    end: '2015',
+    end: '2016',
   },
 ]
 
