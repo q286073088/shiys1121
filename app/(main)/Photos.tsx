@@ -6,7 +6,7 @@ import React from 'react'
 
 import image1 from '~/assets/highlights/dedao.jpg'
 import image2 from '~/assets/highlights/hundun.jpg'
-import image3 from '~/assets/highlights/csdn.jpg'
+// import image3 from '~/assets/highlights/csdn.jpg'
 import image5 from '~/assets/highlights/infoQ2022.jpg'
 import image6 from '~/assets/highlights/dushuren.jpg'
 // import image7 from '~/assets/highlights/wanfen.jpg'
@@ -17,7 +17,6 @@ const alts = [
   '得到学习之旅',
   '终身学习',
   '混沌大学学习之旅',
-  'CSDN超级个体',
   'infoQ2022社区荣誉共建奖',
   '团队管理和项目管理多篇文章获得了证书',
 ]
