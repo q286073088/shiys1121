@@ -4,8 +4,8 @@ import React from 'react'
 import { BriefcaseIcon } from '~/assets'
 import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
 import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
-import zolplayLogo from '~/assets/company/zolplay.png'
+// import vvsLogo from '~/assets/company/vvs.png'
+// import zolplayLogo from '~/assets/company/zolplay.png'
 
 type Resume = {
   company: string
@@ -15,23 +15,23 @@ type Resume = {
   logo: StaticImageData
 }
 const resume: Resume[] = [
-  {
-    company: '滴咚个游科技（广东）有限公司',
-    title: '产品经理',
-    logo: zolplayLogo,
-    start: '2023',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
-  },
-  {
-    company: '深圳乾谷技术有限公司',
-    title: '产品经理',
-    logo: vvsLogo,
-    start: '2022',
-    end: '2022',
-  },
+  // {
+  //   company: '滴咚个游科技（广东）有限公司',
+  //   title: '产品经理',
+  //   logo: zolplayLogo,
+  //   start: '2023',
+  //   end: {
+  //     label: '至今',
+  //     dateTime: new Date().getFullYear(),
+  //   },
+  // },
+  // {
+  //   company: '深圳乾谷技术有限公司',
+  //   title: '产品经理',
+  //   logo: vvsLogo,
+  //   start: '2022',
+  //   end: '2022',
+  // },
   {
     company: '深圳云网基业电信有限公司',
     title: '联合创始人',
